@@ -298,9 +298,8 @@ body {
     }
   }
   .typed-cursor.typed-cursor.typed-cursor--blink{
-    animation: typedjsBlink 0.7s infinite;
-    -webkit-animation: typedjsBlink 0.7s infinite;
-            animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;}
+  .typed-cursor{
     opacity: 1;
   }
   
