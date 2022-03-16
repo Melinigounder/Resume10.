@@ -1,7 +1,7 @@
 *{ box-sizing: border-box;}
 body {
     font-family: "Open Sans", sans-serif;
-    color: #272829;
+    color:black;
   }
   
   a {
@@ -13,9 +13,9 @@ body {
     color: #067ded;
     text-decoration: none;
   }
-  
   h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
+
   }
   
   /*--------------------------------------------------------------
@@ -655,6 +655,7 @@ body {
   #footer .credits {
     font-size: 13px;
   }
+  
   
 
     
