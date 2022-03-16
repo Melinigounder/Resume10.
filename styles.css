@@ -10,7 +10,7 @@ body {
   }
   
   a:hover {
-    color: #067ded;
+    color: #0563bb;
     text-decoration: none;
   }
   h1, h2, h3, h4, h5, h6 {
@@ -97,7 +97,7 @@ body {
   /*--------------------------------------------------------------
   # Disable aos animation delay on mobile devices
   --------------------------------------------------------------*/
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     [data-aos-delay] {
       transition-delay: 0 !important;
     }
@@ -118,8 +118,8 @@ body {
   @media (max-width: 992px) {
     #header {
       width: 300px;
-      background: #fff;
-      border-right: 1px solid #e6e9ec;
+      background:rgb(230, 224, 224);
+      border-right: 1px solid#e6e9ec ;
       left: -300px;
     }
   }
@@ -151,13 +151,13 @@ body {
   .nav-menu a, .nav-menu a:focus {
     display: flex;
     align-items: center;
-    color: #45505b;
+    color: lightcoral;
     padding: 10px 18px;
     margin-bottom: 8px;
     transition: 0.3s;
     font-size: 15px;
     border-radius: 50px;
-    background: #f2f3f5;
+    background: lightcoral;
     height: 56px;
     width: 100%;
     overflow: hidden;
@@ -168,7 +168,7 @@ body {
   }
   .nav-menu a span, .nav-menu a:focus span {
     padding: 0 5px 0 7px;
-    color: #45505b;
+    color:lightcoral;
   }
   @media (min-width: 992px) {
     .nav-menu a, .nav-menu a:focus {
@@ -181,7 +181,7 @@ body {
   }
   .nav-menu a:hover, .nav-menu .active, .nav-menu .active:focus, .nav-menu li:hover > a {
     color: #fff;
-    background: #0563bb;
+    background: lightcoral;
   }
   .nav-menu a:hover span, .nav-menu .active span, .nav-menu .active:focus span, .nav-menu li:hover > a span {
     color: #fff;
@@ -234,18 +234,18 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top right no-repeat;
+    background: url(/Images/flowers-background-pink-roses-petals-hd-wallpaper-preview.jpg) top right no-repeat;
     background-size: cover;
     position: relative;
   }
-  @media (min-width: 992px) {
+  @media (min-width: 600px) {
     #hero {
       padding-left: 160px;
     }
   }
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.342);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -258,6 +258,7 @@ body {
     font-weight: 700;
     line-height: 56px;
     color: #45505b;
+    
   }
   #hero p {
     color: #45505b;
@@ -331,7 +332,7 @@ body {
     margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #45505b;
+    color:#728394 ;
   }
   .section-title h2::before {
     content: "";
@@ -658,4 +659,25 @@ body {
   
   
 
-    
+    /*code for mobile devices smaller than 600px*/
+body { background-color: blue; }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   body { background-color: red; }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   body { background-color: green; }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   body { background-color: yellow; }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   body { background-color: orange; }
+}
