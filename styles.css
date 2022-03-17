@@ -302,6 +302,7 @@ body {
     animation: typedjsBlink 0.7s infinite;}
   .typed-cursor{
     opacity: 1;
+    
   }
   
   @keyframes typedjsBlink{
@@ -312,7 +313,6 @@ body {
     50% { opacity: 0.0; }
     100% { opacity: 1; }
   }
-  
   /*--------------------------------------------------------------
   # Sections General
   --------------------------------------------------------------*/
